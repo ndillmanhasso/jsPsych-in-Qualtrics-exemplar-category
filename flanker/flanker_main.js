@@ -1,6 +1,6 @@
 // Use JSDELIVR to get the files from a GitHub repository
 // https://cdn.jsdelivr.net/gh/<github-username>/<repository-name>/
-var repo_site = "https://cdn.jsdelivr.net/gh/kywch/jsPsych-in-Qualtrics/flanker/";
+var repo_site = "https://cdn.jsdelivr.net/gh/ndillmanhasso/jsPsych-in-Qualtrics-exemplar-category/flanker/";
 
 /* experiment parameters */
 var reps_per_trial_type = 4;
@@ -8,44 +8,44 @@ var reps_per_trial_type = 4;
 /*set up welcome block*/
 var welcome = {
     type: "html-keyboard-response",
-    stimulus: "Welcome to the experiment. Press any key to begin."
+    stimulus: "Thank you for agreeing to participate. In this experiment, you will be determining whether items you can find at a grocery store contain plastic or not. If an item does contain plastic, press the \"e\" key. If the item does not contain plastic, press the \"i\" key. Press any key to see an example."
 };
 
 /*set up instructions block*/
 var instructions = {
     type: "html-keyboard-response",
-    stimulus: "<p>In this task, you will see five arrows on the screen, like the example below.</p>" +
+    stimulus: "<p>Below you see an item from a grocery store.</p>" +
         "<img src='" + repo_site + "img/inc1.png'></img>" +
-        "<p>Press the left arrow key if the middle arrow is pointing left. (<)</p>" +
-        "<p>Press the right arrow key if the middle arrow is pointing right. (>)</p>" +
+        "<p>Press the \"e\" key if the item contains plastic. </p>" +
+        "<p>Press the \"i\" key if the item does not contain plastic. </p>" +
         "<p>Press any key to begin.</p>",
-    post_trial_gap: 1000
+    post_trial_gap: 2000
 };
 
 /*defining stimuli*/
 var test_stimuli = [{
-        stimulus: repo_site + "img/con1.png",
+        stimulus: repo_site + "img/plastic1.png",
         data: {
             stim_type: 'congruent',
             direction: 'left'
         }
     },
     {
-        stimulus: repo_site + "img/con2.png",
+        stimulus: repo_site + "img/plastic2.png",
         data: {
             stim_type: 'congruent',
             direction: 'right'
         }
     },
     {
-        stimulus: repo_site + "img/inc1.png",
+        stimulus: repo_site + "img/noplastic1.png",
         data: {
             stim_type: 'incongruent',
             direction: 'right'
         }
     },
     {
-        stimulus: repo_site + "img/inc2.png",
+        stimulus: repo_site + "img/noplastic2.png",
         data: {
             stim_type: 'incongruent',
             direction: 'left'
@@ -57,15 +57,15 @@ var test_stimuli = [{
 var test = {
     timeline: [{
         type: 'image-keyboard-response',
-        choices: [37, 39],
-        trial_duration: 1500,
+        choices: [69, 73],
+        trial_duration: 5000,
         stimulus: jsPsych.timelineVariable('stimulus'),
         data: jsPsych.timelineVariable('data'),
         on_finish: function (data) {
             var correct = false;
-            if (data.direction == 'left' && data.key_press == 37 && data.rt > -1) {
+            if (data.direction == 'e' && data.key_press == 69 && data.rt > -1) {
                 correct = true;
-            } else if (data.direction == 'right' && data.key_press == 39 && data.rt > -1) {
+            } else if (data.direction == 'i' && data.key_press == 73 && data.rt > -1) {
                 correct = true;
             }
             data.correct = correct;
