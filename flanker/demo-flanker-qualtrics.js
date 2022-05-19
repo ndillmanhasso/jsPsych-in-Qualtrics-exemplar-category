@@ -11,7 +11,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
 
     /* Change 2: Defining and load required resources */
     // https://cdn.jsdelivr.net/gh/<github-username>/<repository-name>/<experiment-folder>
-    var task_github = "https://cdn.jsdelivr.net/gh/kywch/jsPsych-in-Qualtrics/flanker/";
+    var task_github = "https://cdn.jsdelivr.net/gh/ndillmanhasso/jsPsych-in-Qualtrics-exemplar-category/flanker/";
 
     // requiredResources must include all the JS files that demo-simple-rt-task-transformed.html uses.
     var requiredResources = [
@@ -56,19 +56,19 @@ Qualtrics.SurveyEngine.addOnload(function () {
                 var accuracy = Math.round(jsPsych.data.get().filter({
                     correct: true
                 }).count() / total_trials * 100);
-                var congruent_rt = Math.round(jsPsych.data.get().filter({
+                var plastic_rt = Math.round(jsPsych.data.get().filter({
                     correct: true,
-                    stim_type: 'congruent'
+                    stim_type: 'plastic'
                 }).select('rt').mean());
-                var incongruent_rt = Math.round(jsPsych.data.get().filter({
+                var noplastic_rt = Math.round(jsPsych.data.get().filter({
                     correct: true,
-                    stim_type: 'incongruent'
+                    stim_type: 'noplastic'
                 }).select('rt').mean());
 
                 // save to qualtrics embedded data
                 Qualtrics.SurveyEngine.setEmbeddedData("accuracy", accuracy);
-                Qualtrics.SurveyEngine.setEmbeddedData("congruent_rt", congruent_rt);
-                Qualtrics.SurveyEngine.setEmbeddedData("incongruent_rt", incongruent_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic_rt", plastic_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic_rt", noplastic_rt);
 
                 /* Change 6: Adding the clean up and continue functions.*/
                 // clear the stage

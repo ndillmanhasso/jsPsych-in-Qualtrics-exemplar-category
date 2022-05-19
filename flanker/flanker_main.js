@@ -26,29 +26,29 @@ var instructions = {
 var test_stimuli = [{
         stimulus: repo_site + "img/plastic1.png",
         data: {
-            stim_type: 'congruent',
-            direction: 'left'
+            stim_type: 'plastic',
+            direction: 'e'
         }
     },
     {
         stimulus: repo_site + "img/plastic2.png",
         data: {
-            stim_type: 'congruent',
-            direction: 'right'
+            stim_type: 'plastic',
+            direction: 'e'
         }
     },
     {
         stimulus: repo_site + "img/noplastic1.png",
         data: {
-            stim_type: 'incongruent',
-            direction: 'right'
+            stim_type: 'noplastic',
+            direction: 'i'
         }
     },
     {
         stimulus: repo_site + "img/noplastic2.png",
         data: {
-            stim_type: 'incongruent',
-            direction: 'left'
+            stim_type: 'noplastic',
+            direction: 'i'
         }
     }
 ];
@@ -91,17 +91,17 @@ var debrief = {
         var accuracy = Math.round(jsPsych.data.get().filter({
             correct: true
         }).count() / total_trials * 100);
-        var congruent_rt = Math.round(jsPsych.data.get().filter({
+        var plastic_rt = Math.round(jsPsych.data.get().filter({
             correct: true,
-            stim_type: 'congruent'
+            stim_type: 'plastic'
         }).select('rt').mean());
-        var incongruent_rt = Math.round(jsPsych.data.get().filter({
+        var noplastic_rt = Math.round(jsPsych.data.get().filter({
             correct: true,
-            stim_type: 'incongruent'
+            stim_type: 'noplastic'
         }).select('rt').mean());
         return "<p>You responded correctly on <strong>" + accuracy + "%</strong> of the trials.</p> " +
-            "<p>Your average response time for congruent trials was <strong>" + congruent_rt + "ms</strong>.</p>" +
-            "<p>Your average response time for incongruent trials was <strong>" + incongruent_rt + "ms</strong>.</p>" +
+            "<p>Your average response time for plastic trials was <strong>" + plastic_rt + "ms</strong>.</p>" +
+            "<p>Your average response time for non-plastic trials was <strong>" + noplastic_rt + "ms</strong>.</p>" +
             "<p>Press any key to complete the experiment. Thank you!</p>";
     }
 };
