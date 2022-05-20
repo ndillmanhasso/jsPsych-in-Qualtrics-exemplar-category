@@ -3,7 +3,7 @@
 var repo_site = "https://cdn.jsdelivr.net/gh/ndillmanhasso/jsPsych-in-Qualtrics-exemplar-category/flanker/";
 
 /* experiment parameters */
-var reps_per_trial_type = 4;
+var reps_per_trial_type = 1;
 
 /*set up welcome block*/
 var welcome = {
@@ -38,6 +38,244 @@ var test_stimuli = [{
         }
     },
     {
+        stimulus: repo_site + "img/plastic3.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic4.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic5.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic6.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic7.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic8.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic9.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic10.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic11.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic12.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic13.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic14.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic15.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic16.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+       stimulus: repo_site + "img/plastic17.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic18.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic19.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic20.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic21.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic22.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic23.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+       stimulus: repo_site + "img/plastic24.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic25.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic26.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic27.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic28.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic29.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic30.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic31.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic32.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic33.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic34.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic35.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
+        stimulus: repo_site + "img/plastic36.png",
+        data: {
+            stim_type: 'plastic',
+            direction: 'e'
+        }
+    },
+    {
         stimulus: repo_site + "img/noplastic1.png",
         data: {
             stim_type: 'noplastic',
@@ -46,6 +284,104 @@ var test_stimuli = [{
     },
     {
         stimulus: repo_site + "img/noplastic2.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic3.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic4.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic5.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic6.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic7.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic8.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic9.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic10.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic11.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic12.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic13.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic14.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic15.png",
+        data: {
+            stim_type: 'noplastic',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "img/noplastic16.png",
         data: {
             stim_type: 'noplastic',
             direction: 'i'
