@@ -435,10 +435,7 @@ var debrief = {
             correct: true,
             stim_type: 'noplastic'
         }).select('rt').mean());
-        return "<p>You responded correctly on <strong>" + accuracy + "%</strong> of the trials.</p> " +
-            "<p>Your average response time for plastic trials was <strong>" + plastic_rt + "ms</strong>.</p>" +
-            "<p>Your average response time for non-plastic trials was <strong>" + noplastic_rt + "ms</strong>.</p>" +
-            "<p>Press any key to complete the experiment. Thank you!</p>";
+        return "<p>Press any key to complete the experiment. Thank you for your time!</p>";
     }
 };
 
