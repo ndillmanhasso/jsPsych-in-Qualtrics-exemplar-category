@@ -435,7 +435,7 @@ var debrief = {
             correct: true,
             stim_type: 'noplastic'
         }).select('rt').mean());
-        return "<p>Press any key to complete the experiment. Thank you for your time!</p>";
+        return "<p>You have completed the experiment. Press any key to answer a few final questions.</p>";
     }
 };
 
