@@ -56,19 +56,349 @@ Qualtrics.SurveyEngine.addOnload(function () {
                 var accuracy = Math.round(jsPsych.data.get().filter({
                     correct: true
                 }).count() / total_trials * 100);
-                var plastic_rt = Math.round(jsPsych.data.get().filter({
+                var plastic1_rt = Math.round(jsPsych.data.get().filter({
                     correct: true,
-                    stim_type: 'plastic'
+                    stim_type: 'plastic1'
                 }).select('rt').mean());
-                var noplastic_rt = Math.round(jsPsych.data.get().filter({
+                var plastic2_rt = Math.round(jsPsych.data.get().filter({
                     correct: true,
-                    stim_type: 'noplastic'
+                    stim_type: 'plastic2'
+                }).select('rt').mean());
+                var plastic3_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic3'
+                }).select('rt').mean());
+                var plastic4_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic4'
+                }).select('rt').mean());
+                var plastic5_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic5'
+                }).select('rt').mean());
+                var plastic6_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic6'
+                }).select('rt').mean());
+                var plastic7_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic7'
+                }).select('rt').mean());
+                var plastic8_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic8'
+                }).select('rt').mean());
+                var plastic9_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic9'
+                }).select('rt').mean());
+                var plastic10_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic10'
+                }).select('rt').mean());
+                var plastic11_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic11'
+                }).select('rt').mean());
+                var plastic12_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic12'
+                }).select('rt').mean());
+                var plastic13_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic13'
+                }).select('rt').mean());
+                var plastic14_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic14'
+                }).select('rt').mean());
+                var plastic15_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic15'
+                }).select('rt').mean());
+                var plastic16_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic16'
+                }).select('rt').mean());
+                var plastic17_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic17'
+                }).select('rt').mean());
+                var plastic18_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic18'
+                }).select('rt').mean());
+                var plastic19_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic19'
+                }).select('rt').mean());
+                var plastic20_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic20'
+                }).select('rt').mean());
+                var plastic21_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic21'
+                }).select('rt').mean());
+                var plastic22_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic22'
+                }).select('rt').mean());
+                var plastic23_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic23'
+                }).select('rt').mean());
+                var plastic24_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic24'
+                }).select('rt').mean());
+                var plastic25_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic25'
+                }).select('rt').mean());
+                var plastic26_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic26'
+                }).select('rt').mean());
+                var plastic27_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic27'
+                }).select('rt').mean());
+                var plastic28_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic28'
+                }).select('rt').mean());
+                var plastic29_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic29'
+                }).select('rt').mean());
+                var plastic30_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic30'
+                }).select('rt').mean());
+                var plastic31_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic31'
+                }).select('rt').mean());
+                var plastic32_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic32'
+                }).select('rt').mean());
+                var plastic33_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic33'
+                }).select('rt').mean());
+                var plastic34_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic34'
+                }).select('rt').mean());
+                var plastic35_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic35'
+                }).select('rt').mean());
+                var plastic36_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic36'
+                }).select('rt').mean());
+                var noplastic1_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic1'
+                }).select('rt').mean());
+                var noplastic2_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic2'
+                }).select('rt').mean());
+                var noplastic3_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic3'
+                }).select('rt').mean());
+                var noplastic4_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic4'
+                }).select('rt').mean());
+                var noplastic5_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic5'
+                }).select('rt').mean());
+                var noplastic6_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic6'
+                }).select('rt').mean());
+                var noplastic7_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic7'
+                }).select('rt').mean());
+                var noplastic8_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic8'
+                }).select('rt').mean());
+                var noplastic9_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic9'
+                }).select('rt').mean());
+                var noplastic10_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic10'
+                }).select('rt').mean());
+                var noplastic11_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic11'
+                }).select('rt').mean());
+                var noplastic12_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic12'
+                }).select('rt').mean());
+                var noplastic13_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic13'
+                }).select('rt').mean());
+                var noplastic14_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic14'
+                }).select('rt').mean());
+                var noplastic15_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic15'
+                }).select('rt').mean());
+                var noplastic16_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic16'
+                }).select('rt').mean());
+                var noplastic17_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic17'
+                }).select('rt').mean());
+                var noplastic18_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic18'
+                }).select('rt').mean());
+                var noplastic19_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic19'
+                }).select('rt').mean());
+                var noplastic20_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic20'
+                }).select('rt').mean());
+                var noplastic21_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic21'
+                }).select('rt').mean());
+                var noplastic22_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic22'
+                }).select('rt').mean());
+                var noplastic23_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic23'
+                }).select('rt').mean());
+                var noplastic24_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic24'
+                }).select('rt').mean());
+                var noplastic25_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic25'
+                }).select('rt').mean());
+                var noplastic26_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic26'
+                }).select('rt').mean());
+                var noplastic27_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic27'
+                }).select('rt').mean());
+                var noplastic28_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic28'
+                }).select('rt').mean());
+                var noplastic29_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic29'
+                }).select('rt').mean());
+                var noplastic30_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic30'
+                }).select('rt').mean());
+                var plastic_test_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'plastic_test'
+                }).select('rt').mean());
+                var noplastic_test_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic_test'
                 }).select('rt').mean());
 
                 // save to qualtrics embedded data
                 Qualtrics.SurveyEngine.setEmbeddedData("accuracy", accuracy);
-                Qualtrics.SurveyEngine.setEmbeddedData("plastic_rt", plastic_rt);
-                Qualtrics.SurveyEngine.setEmbeddedData("noplastic_rt", noplastic_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic1_rt", plastic_rt1);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic2_rt", plastic_rt2);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic3_rt", plastic_rt3);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic4_rt", plastic_rt4);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic5_rt", plastic_rt5);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic6_rt", plastic_rt6);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic7_rt", plastic_rt7);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic8_rt", plastic_rt8);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic9_rt", plastic_rt9);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic10_rt", plastic_rt10);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic11_rt", plastic_rt11);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic12_rt", plastic_rt12);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic13_rt", plastic_rt13);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic14_rt", plastic_rt14);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic15_rt", plastic_rt15);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic16_rt", plastic_rt16);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic17_rt", plastic_rt17);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic18_rt", plastic_rt18);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic19_rt", plastic_rt19);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic20_rt", plastic_rt20);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic21_rt", plastic_rt21);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic22_rt", plastic_rt22);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic23_rt", plastic_rt23);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic24_rt", plastic_rt24);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic25_rt", plastic_rt25);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic26_rt", plastic_rt26);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic27_rt", plastic_rt27);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic28_rt", plastic_rt28);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic29_rt", plastic_rt29);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic30_rt", plastic_rt30);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic31_rt", plastic_rt31);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic32_rt", plastic_rt32);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic33_rt", plastic_rt33);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic34_rt", plastic_rt34);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic35_rt", plastic_rt35);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic36_rt", plastic_rt36);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic1_rt", noplastic_rt1);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic2_rt", noplastic_rt2);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic3_rt", noplastic_rt3);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic4_rt", noplastic_rt4);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic5_rt", noplastic_rt5);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic6_rt", noplastic_rt6);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic7_rt", noplastic_rt7);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic8_rt", noplastic_rt8);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic9_rt", noplastic_rt9);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic10_rt", noplastic_rt10);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic11_rt", noplastic_rt11);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic12_rt", noplastic_rt12);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic13_rt", noplastic_rt13);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic14_rt", noplastic_rt14);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic15_rt", noplastic_rt15);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic16_rt", noplastic_rt16);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic17_rt", noplastic_rt17);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic18_rt", noplastic_rt18);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic19_rt", noplastic_rt19);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic20_rt", noplastic_rt20);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic21_rt", noplastic_rt21);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic22_rt", noplastic_rt22);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic23_rt", noplastic_rt23);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic24_rt", noplastic_rt24);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic25_rt", noplastic_rt25);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic26_rt", noplastic_rt26);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic27_rt", noplastic_rt27);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic28_rt", noplastic_rt28);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic29_rt", noplastic_rt29);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic30_rt", noplastic_rt30);
+                Qualtrics.SurveyEngine.setEmbeddedData("plastic_test_rt", plastic_test_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic_test_rt", noplastic_test_rt);
 
                 /* Change 6: Adding the clean up and continue functions.*/
                 // clear the stage
