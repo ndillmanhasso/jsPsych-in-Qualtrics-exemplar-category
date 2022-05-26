@@ -22,7 +22,7 @@ var welcome2 = {
 var instructions = {
     type: "html-keyboard-response",
     stimulus: "<p>Below you see an item from a grocery store.</p>" +
-        "<img src='" + repo_site + "imgs/plastic1.png'></img>" +
+        "<img src='" + repo_site + "imgs/stim_plastic1.png'></img>" +
         "<p>Press the \"e\" key if the item contains plastic. </p>" +
         "<p>Press the \"i\" key if the item does not contain plastic. </p>" +
         "<p>Press any key to begin.</p>",
@@ -31,476 +31,476 @@ var instructions = {
 
 /*defining stimuli*/
 var test_stimuli = [{
-        stimulus: repo_site + "imgs/plastic1.png",
+        stimulus: repo_site + "imgs/stim_plastic1.png",
         data: {
             stim_type: 'plastic1',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic2.png",
+        stimulus: repo_site + "imgs/stim_plastic2.png",
         data: {
             stim_type: 'plastic2',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic3.png",
+        stimulus: repo_site + "imgs/stim_plastic3.png",
         data: {
             stim_type: 'plastic3',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic4.png",
+        stimulus: repo_site + "imgs/stim_plastic4.png",
         data: {
             stim_type: 'plastic4',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic5.png",
+        stimulus: repo_site + "imgs/stim_plastic5.png",
         data: {
             stim_type: 'plastic5',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic6.png",
+        stimulus: repo_site + "imgs/stim_plastic6.png",
         data: {
             stim_type: 'plastic6',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic7.png",
+        stimulus: repo_site + "imgs/stim_plastic7.png",
         data: {
             stim_type: 'plastic7',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic8.png",
+        stimulus: repo_site + "imgs/stim_plastic8.png",
         data: {
             stim_type: 'plastic8',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic9.png",
+        stimulus: repo_site + "imgs/stim_plastic9.png",
         data: {
             stim_type: 'plastic9',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic10.png",
+        stimulus: repo_site + "imgs/stim_plastic10.png",
         data: {
             stim_type: 'plastic10',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic11.png",
+        stimulus: repo_site + "imgs/stim_plastic11.png",
         data: {
             stim_type: 'plastic11',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic12.png",
+        stimulus: repo_site + "imgs/stim_plastic12.png",
         data: {
             stim_type: 'plastic12',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic13.png",
+        stimulus: repo_site + "imgs/stim_plastic13.png",
         data: {
             stim_type: 'plastic13',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic14.png",
+        stimulus: repo_site + "imgs/stim_plastic14.png",
         data: {
             stim_type: 'plastic14',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic15.png",
+        stimulus: repo_site + "imgs/stim_plastic15.png",
         data: {
             stim_type: 'plastic15',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic16.png",
+        stimulus: repo_site + "imgs/stim_plastic16.png",
         data: {
             stim_type: 'plastic16',
             direction: 'e'
         }
     },
     {
-       stimulus: repo_site + "imgs/plastic17.png",
+       stimulus: repo_site + "imgs/stim_plastic17.png",
         data: {
             stim_type: 'plastic17',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic18.png",
+        stimulus: repo_site + "imgs/stim_plastic18.png",
         data: {
             stim_type: 'plastic18',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic19.png",
+        stimulus: repo_site + "imgs/stim_plastic19.png",
         data: {
             stim_type: 'plastic19',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic20.png",
+        stimulus: repo_site + "imgs/stim_plastic20.png",
         data: {
             stim_type: 'plastic20',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic21.png",
+        stimulus: repo_site + "imgs/stim_plastic21.png",
         data: {
             stim_type: 'plastic21',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic22.png",
+        stimulus: repo_site + "imgs/stim_plastic22.png",
         data: {
             stim_type: 'plastic22',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic23.png",
+        stimulus: repo_site + "imgs/stim_plastic23.png",
         data: {
             stim_type: 'plastic23',
             direction: 'e'
         }
     },
     {
-       stimulus: repo_site + "imgs/plastic24.png",
+       stimulus: repo_site + "imgs/stim_plastic24.png",
         data: {
             stim_type: 'plastic24',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic25.png",
+        stimulus: repo_site + "imgs/stim_plastic25.png",
         data: {
             stim_type: 'plastic25',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic26.png",
+        stimulus: repo_site + "imgs/stim_plastic26.png",
         data: {
             stim_type: 'plastic26',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic27.png",
+        stimulus: repo_site + "imgs/stim_plastic27.png",
         data: {
             stim_type: 'plastic27',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic28.png",
+        stimulus: repo_site + "imgs/stim_plastic28.png",
         data: {
             stim_type: 'plastic28',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic29.png",
+        stimulus: repo_site + "imgs/stim_plastic29.png",
         data: {
             stim_type: 'plastic29',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic30.png",
+        stimulus: repo_site + "imgs/stim_plastic30.png",
         data: {
             stim_type: 'plastic30',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic31.png",
+        stimulus: repo_site + "imgs/stim_plastic31.png",
         data: {
             stim_type: 'plastic31',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic32.png",
+        stimulus: repo_site + "imgs/stim_plastic32.png",
         data: {
             stim_type: 'plastic32',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic33.png",
+        stimulus: repo_site + "imgs/stim_plastic33.png",
         data: {
             stim_type: 'plastic33',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic34.png",
+        stimulus: repo_site + "imgs/stim_plastic34.png",
         data: {
             stim_type: 'plastic34',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic35.png",
+        stimulus: repo_site + "imgs/stim_plastic35.png",
         data: {
             stim_type: 'plastic35',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic36.png",
+        stimulus: repo_site + "imgs/stim_plastic36.png",
         data: {
             stim_type: 'plastic36',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic1.png",
+        stimulus: repo_site + "imgs/stim_noplastic1.png",
         data: {
             stim_type: 'noplastic1',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic2.png",
+        stimulus: repo_site + "imgs/stim_noplastic2.png",
         data: {
             stim_type: 'noplastic2',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic3.png",
+        stimulus: repo_site + "imgs/stim_noplastic3.png",
         data: {
             stim_type: 'noplastic3',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic4.png",
+        stimulus: repo_site + "imgs/stim_noplastic4.png",
         data: {
             stim_type: 'noplastic4',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic5.png",
+        stimulus: repo_site + "imgs/stim_noplastic5.png",
         data: {
             stim_type: 'noplastic5',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic6.png",
+        stimulus: repo_site + "imgs/stim_noplastic6.png",
         data: {
             stim_type: 'noplastic6',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic7.png",
+        stimulus: repo_site + "imgs/stim_noplastic7.png",
         data: {
             stim_type: 'noplastic7',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic8.png",
+        stimulus: repo_site + "imgs/stim_noplastic8.png",
         data: {
             stim_type: 'noplastic8',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic9.png",
+        stimulus: repo_site + "imgs/stim_noplastic9.png",
         data: {
             stim_type: 'noplastic9',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic10.png",
+        stimulus: repo_site + "imgs/stim_noplastic10.png",
         data: {
             stim_type: 'noplastic10',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic11.png",
+        stimulus: repo_site + "imgs/stim_noplastic11.png",
         data: {
             stim_type: 'noplastic11',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic12.png",
+        stimulus: repo_site + "imgs/stim_noplastic12.png",
         data: {
             stim_type: 'noplastic12',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic13.png",
+        stimulus: repo_site + "imgs/stim_noplastic13.png",
         data: {
             stim_type: 'noplastic13',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic14.png",
+        stimulus: repo_site + "imgs/stim_noplastic14.png",
         data: {
             stim_type: 'noplastic14',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic15.png",
+        stimulus: repo_site + "imgs/stim_noplastic15.png",
         data: {
             stim_type: 'noplastic15',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic16.png",
+        stimulus: repo_site + "imgs/stim_noplastic16.png",
         data: {
             stim_type: 'noplastic16',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic17.png",
+        stimulus: repo_site + "imgs/stim_noplastic17.png",
         data: {
             stim_type: 'noplastic17',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic18.png",
+        stimulus: repo_site + "imgs/stim_noplastic18.png",
         data: {
             stim_type: 'noplastic18',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic19.png",
+        stimulus: repo_site + "imgs/stim_noplastic19.png",
         data: {
             stim_type: 'noplastic19',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic20.png",
+        stimulus: repo_site + "imgs/stim_noplastic20.png",
         data: {
             stim_type: 'noplastic20',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic21.png",
+        stimulus: repo_site + "imgs/stim_noplastic21.png",
         data: {
             stim_type: 'noplastic21',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic22.png",
+        stimulus: repo_site + "imgs/stim_noplastic22.png",
         data: {
             stim_type: 'noplastic22',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic23.png",
+        stimulus: repo_site + "imgs/stim_noplastic23.png",
         data: {
             stim_type: 'noplastic23',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic24.png",
+        stimulus: repo_site + "imgs/stim_noplastic24.png",
         data: {
             stim_type: 'noplastic24',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic25.png",
+        stimulus: repo_site + "imgs/stim_noplastic25.png",
         data: {
             stim_type: 'noplastic25',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic26.png",
+        stimulus: repo_site + "imgs/stim_noplastic26.png",
         data: {
             stim_type: 'noplastic26',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic27.png",
+        stimulus: repo_site + "imgs/stim_noplastic27.png",
         data: {
             stim_type: 'noplastic27',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic28.png",
+        stimulus: repo_site + "imgs/stim_noplastic28.png",
         data: {
             stim_type: 'noplastic28',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic29.png",
+        stimulus: repo_site + "imgs/stim_noplastic29.png",
         data: {
             stim_type: 'noplastic29',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic30.png",
+        stimulus: repo_site + "imgs/stim_noplastic30.png",
         data: {
             stim_type: 'noplastic30',
             direction: 'i'
         }
     },
     {
-        stimulus: repo_site + "imgs/plastic_test.png",
+        stimulus: repo_site + "imgs/stim_plastic_test.png",
         data: {
             stim_type: 'plastic_test',
             direction: 'e'
         }
     },
     {
-        stimulus: repo_site + "imgs/noplastic_test.png",
+        stimulus: repo_site + "imgs/stim_noplastic_test.png",
         data: {
             stim_type: 'noplastic_test',
             direction: 'i'
