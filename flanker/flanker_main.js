@@ -22,7 +22,7 @@ var welcome2 = {
 var instructions = {
     type: "html-keyboard-response",
     stimulus: "<p>Below you see an item from a grocery store.</p>" +
-        "<img src='" + repo_site + "imgs/stim_plastic1.png'></img>" +
+        "<img src='" + repo_site + "imgs/practice_img.png'></img>" +
         "<p>Press the \"e\" key if the item contains plastic. </p>" +
         "<p>Press the \"i\" key if the item does not contain plastic. </p>" +
         "<p>Press any key to begin.</p>",
