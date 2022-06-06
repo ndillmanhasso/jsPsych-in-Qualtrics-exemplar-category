@@ -493,6 +493,48 @@ var test_stimuli = [{
         }
     },
     {
+        stimulus: repo_site + "imgs/stim_noplastic31.png",
+        data: {
+            stim_type: 'noplastic31',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "imgs/stim_noplastic32.png",
+        data: {
+            stim_type: 'noplastic32',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "imgs/stim_noplastic33.png",
+        data: {
+            stim_type: 'noplastic33',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "imgs/stim_noplastic34.png",
+        data: {
+            stim_type: 'noplastic34',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "imgs/stim_noplastic35.png",
+        data: {
+            stim_type: 'noplastic35',
+            direction: 'i'
+        }
+    },
+    {
+        stimulus: repo_site + "imgs/stim_noplastic36.png",
+        data: {
+            stim_type: 'noplastic36',
+            direction: 'i'
+        }
+    },
+    {
         stimulus: repo_site + "imgs/stim_plastic_test.png",
         data: {
             stim_type: 'plastic_test',
@@ -810,6 +852,30 @@ var debrief = {
         var noplastic30_rt = Math.round(jsPsych.data.get().filter({
             correct: true,
             stim_type: 'noplastic30'
+        }).select('rt').mean());
+        var noplastic31_rt = Math.round(jsPsych.data.get().filter({
+            correct: true,
+            stim_type: 'noplastic31'
+        }).select('rt').mean());
+        var noplastic32_rt = Math.round(jsPsych.data.get().filter({
+            correct: true,
+            stim_type: 'noplastic32'
+        }).select('rt').mean());
+        var noplastic33_rt = Math.round(jsPsych.data.get().filter({
+            correct: true,
+            stim_type: 'noplastic33'
+        }).select('rt').mean());
+        var noplastic34_rt = Math.round(jsPsych.data.get().filter({
+            correct: true,
+            stim_type: 'noplastic34'
+        }).select('rt').mean());
+        var noplastic35_rt = Math.round(jsPsych.data.get().filter({
+            correct: true,
+            stim_type: 'noplastic35'
+        }).select('rt').mean());
+        var noplastic36_rt = Math.round(jsPsych.data.get().filter({
+            correct: true,
+            stim_type: 'noplastic36'
         }).select('rt').mean());
         var plastic_test_rt = Math.round(jsPsych.data.get().filter({
             correct: true,

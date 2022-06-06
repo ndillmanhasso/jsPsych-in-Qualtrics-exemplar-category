@@ -320,6 +320,30 @@ Qualtrics.SurveyEngine.addOnload(function () {
                     correct: true,
                     stim_type: 'noplastic30'
                 }).select('rt').mean());
+                var noplastic31_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic31'
+                }).select('rt').mean());
+                var noplastic32_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic32'
+                }).select('rt').mean());
+                var noplastic33_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic33'
+                }).select('rt').mean());
+                var noplastic34_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic34'
+                }).select('rt').mean());
+                var noplastic35_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic35'
+                }).select('rt').mean());
+                var noplastic36_rt = Math.round(jsPsych.data.get().filter({
+                    correct: true,
+                    stim_type: 'noplastic36'
+                }).select('rt').mean());
                 var plastic_test_rt = Math.round(jsPsych.data.get().filter({
                     correct: true,
                     stim_type: 'plastic_test'
@@ -397,6 +421,12 @@ Qualtrics.SurveyEngine.addOnload(function () {
                 Qualtrics.SurveyEngine.setEmbeddedData("noplastic28_rt", noplastic28_rt);
                 Qualtrics.SurveyEngine.setEmbeddedData("noplastic29_rt", noplastic29_rt);
                 Qualtrics.SurveyEngine.setEmbeddedData("noplastic30_rt", noplastic30_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic31_rt", noplastic31_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic32_rt", noplastic32_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic33_rt", noplastic33_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic34_rt", noplastic34_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic35_rt", noplastic35_rt);
+                Qualtrics.SurveyEngine.setEmbeddedData("noplastic36_rt", noplastic36_rt);
                 Qualtrics.SurveyEngine.setEmbeddedData("plastic_test_rt", plastic_test_rt);
                 Qualtrics.SurveyEngine.setEmbeddedData("noplastic_test_rt", noplastic_test_rt);
 
