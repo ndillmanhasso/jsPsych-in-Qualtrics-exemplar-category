@@ -885,6 +885,302 @@ var debrief = {
             correct: true,
             stim_type: 'noplastic_test'
         }).select('rt').mean());
+        var f_plastic1_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic1'
+        }).select('rt').mean());
+        var f_plastic2_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic2'
+        }).select('rt').mean());
+        var f_plastic3_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic3'
+        }).select('rt').mean());
+        var f_plastic4_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic4'
+        }).select('rt').mean());
+        var f_plastic5_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic5'
+        }).select('rt').mean());
+        var f_plastic6_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic6'
+        }).select('rt').mean());
+        var f_plastic7_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic7'
+        }).select('rt').mean());
+        var f_plastic8_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic8'
+        }).select('rt').mean());
+        var f_plastic9_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic9'
+        }).select('rt').mean());
+        var f_plastic10_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic10'
+        }).select('rt').mean());
+        var f_plastic11_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic11'
+        }).select('rt').mean());
+        var f_plastic12_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic12'
+        }).select('rt').mean());
+        var f_plastic13_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic13'
+        }).select('rt').mean());
+        var f_plastic14_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic14'
+        }).select('rt').mean());
+        var f_plastic15_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic15'
+        }).select('rt').mean());
+        var f_plastic16_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic16'
+        }).select('rt').mean());
+        var f_plastic17_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic17'
+        }).select('rt').mean());
+        var f_plastic18_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic18'
+        }).select('rt').mean());
+        var f_plastic19_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic19'
+        }).select('rt').mean());
+        var f_plastic20_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic20'
+        }).select('rt').mean());
+        var f_plastic21_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic21'
+        }).select('rt').mean());
+        var f_plastic22_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic22'
+        }).select('rt').mean());
+        var f_plastic23_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic23'
+        }).select('rt').mean());
+        var f_plastic24_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic24'
+        }).select('rt').mean());
+        var f_plastic25_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic25'
+        }).select('rt').mean());
+        var f_plastic26_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic26'
+        }).select('rt').mean());
+        var f_plastic27_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic27'
+        }).select('rt').mean());
+        var f_plastic28_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic28'
+        }).select('rt').mean());
+        var f_plastic29_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic29'
+        }).select('rt').mean());
+        var f_plastic30_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic30'
+        }).select('rt').mean());
+        var f_plastic31_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic31'
+        }).select('rt').mean());
+        var f_plastic32_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic32'
+        }).select('rt').mean());
+        var f_plastic33_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic33'
+        }).select('rt').mean());
+        var f_plastic34_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic34'
+        }).select('rt').mean());
+        var f_plastic35_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic35'
+        }).select('rt').mean());
+        var f_plastic36_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic36'
+        }).select('rt').mean());
+        var f_noplastic1_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic1'
+        }).select('rt').mean());
+        var f_noplastic2_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic2'
+        }).select('rt').mean());
+        var f_noplastic3_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic3'
+        }).select('rt').mean());
+        var f_noplastic4_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic4'
+        }).select('rt').mean());
+        var f_noplastic5_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic5'
+        }).select('rt').mean());
+        var f_noplastic6_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic6'
+        }).select('rt').mean());
+        var f_noplastic7_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic7'
+        }).select('rt').mean());
+        var f_noplastic8_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic8'
+        }).select('rt').mean());
+        var f_noplastic9_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic9'
+        }).select('rt').mean());
+        var f_noplastic10_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic10'
+        }).select('rt').mean());
+        var f_noplastic11_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic11'
+        }).select('rt').mean());
+        var f_noplastic12_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic12'
+        }).select('rt').mean());
+        var f_noplastic13_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic13'
+        }).select('rt').mean());
+        var f_noplastic14_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic14'
+        }).select('rt').mean());
+        var f_noplastic15_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic15'
+        }).select('rt').mean());
+        var f_noplastic16_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic16'
+        }).select('rt').mean());
+        var f_noplastic17_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic17'
+        }).select('rt').mean());
+        var f_noplastic18_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic18'
+        }).select('rt').mean());
+        var f_noplastic19_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic19'
+        }).select('rt').mean());
+        var f_noplastic20_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic20'
+        }).select('rt').mean());
+        var f_noplastic21_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic21'
+        }).select('rt').mean());
+        var f_noplastic22_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic22'
+        }).select('rt').mean());
+        var f_noplastic23_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic23'
+        }).select('rt').mean());
+        var f_noplastic24_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic24'
+        }).select('rt').mean());
+        var f_noplastic25_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic25'
+        }).select('rt').mean());
+        var f_noplastic26_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic26'
+        }).select('rt').mean());
+        var f_noplastic27_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic27'
+        }).select('rt').mean());
+        var f_noplastic28_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic28'
+        }).select('rt').mean());
+        var f_noplastic29_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic29'
+        }).select('rt').mean());
+        var f_noplastic30_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic30'
+        }).select('rt').mean());
+        var f_noplastic31_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic31'
+        }).select('rt').mean());
+        var f_noplastic32_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic32'
+        }).select('rt').mean());
+        var f_noplastic33_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic33'
+        }).select('rt').mean());
+        var f_noplastic34_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic34'
+        }).select('rt').mean());
+        var f_noplastic35_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic35'
+        }).select('rt').mean());
+        var f_noplastic36_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic36'
+        }).select('rt').mean());
+        var f_plastic_test_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_plastic_test'
+        }).select('rt').mean());
+        var f_noplastic_test_rt = Math.round(jsPsych.data.get().filter({
+            correct: false,
+            stim_type: 'f_noplastic_test'
+        }).select('rt').mean());
         return "<p>You have completed the experiment. Press any key to answer a few final questions.</p>";
     }
 };
